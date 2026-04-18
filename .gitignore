@@ -1,9 +1,18 @@
+# Build outputs
+build/
+app/build/
+
+# Gradle cache and wrapper internals
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# IDE files
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
+
+# Local environment — never commit this
+local.properties
+
+# OS junk
 .DS_Store
-/build
-/captures
-.externalNativeBuild
+Thumbs.db
